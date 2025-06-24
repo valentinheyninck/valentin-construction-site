@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premiere Construction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 🇫🇷 Version française -->
+  <div id="lang-fr">
+    <header>
+      <h1>Valentin Heyninck<br><span>Construction et rénovation</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="switch-lang">NL</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Des chantiers solides. Un service humain.</h2>
+      <p>Votre projet mérite l’excellence.</p>
+    </section>
+
+    <section id="services">
+      <h3>Nos Services</h3>
+      <ul>
+        <li>Gros œuvre & rénovation</li>
+        <li>Aménagements extérieurs</li>
+        <li>Démolition & terrassement</li>
+        <li>Pose d'étanchéité (type Aquaplan)</li>
+      </ul>
+    </section>
+
+    <section id="realisations">
+      <h3>Nos Réalisations</h3>
+      <p>Plateforme étanchéifiée à Gosselies :</p>
+      <div class="galerie">
+        <img src="img/platforme-1.jpg" alt="Vue large plateforme étanchéifiée">
+        <img src="img/platforme-2.jpg" alt="Vue rapprochée vers le mur">
+      </div>
+    </section>
+
+    <section id="avis">
+      <h3>Avis Clients</h3>
+      <p>🛠️ Nous venons de lancer notre activité : les premiers avis clients arrivent petit à petit.</p>
+      <blockquote>
+        ⭐⭐⭐⭐⭐ — Rose Marie Jaspar (avis Google à Gosselies, sans commentaire)
+      </blockquote>
+      <p><a href="https://www.google.com/search?q=Valentin+Heyninck+Construction+et+r%C3%A9novation" target="_blank">
+        💬 Laisser un avis sur Google
+      </a></p>
+    </section>
+
+    <section id="zone">
+      <h3>Zone d’intervention</h3>
+      <p>Basés à Gosselies, nous nous déplaçons dans toute la Belgique :</p>
+      <ul>
+        <li>📍 Wallonie : Charleroi, Namur, Mons, Liège et environs</li>
+        <li>📍 Bruxelles-Capitale</li>
+        <li>📍 Flandre (nous nous adaptons à la langue et aux règles locales)</li>
+      </ul>
+      <p>💡 Des frais de déplacement peuvent s’appliquer selon la distance.</p>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <form action="mailto:contact@premiereconstruction.be" method="POST" enctype="text/plain">
+        <label>Nom :</label><br>
+        <input type="text" name="nom" required><br><br>
+
+        <label>Email :</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Message :</label><br>
+        <textarea name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Envoyer">
+      </form>
+
+      <p>Ou contactez-moi sur WhatsApp :</p>
+      <a href="https://wa.me/32470XXXXXX" class="whatsapp-button" target="_blank">💬 Ouvrir WhatsApp</a>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Valentin Heyninck Construction et rénovation – TVA BE1024424819</p>
+    </footer>
+  </div>
+
+  <!-- 🇳🇱 Version néerlandaise -->
+  <div id="lang-nl" style="display:none;">
+    <header>
+      <h1>Valentin Heyninck<br><span>Bouw en renovatie</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Diensten</a></li>
+          <li><a href="#realisations">Projecten</a></li>
+          <li><a href="#avis">Beoordelingen</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="switch-lang-nl">FR</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Stevige werven. Menselijke service.</h2>
+      <p>Uw project verdient topkwaliteit.</p>
+    </section>
+
+    <section id="services">
+      <h3>Onze Diensten</h3>
+      <ul>
+        <li>Ruwbouw en renovatie</li>
+        <li>Buitenaanleg</li>
+        <li>Sloopwerken en grondverzet</li>
+        <li>Waterdichting (zoals Aquaplan)</li>
+      </ul>
+    </section>
+
+    <section id="realisations">
+      <h3>Onze Projecten</h3>
+      <p>Waterdichte vloer in Gosselies geplaatst:</p>
+      <div class="galerie">
+        <img src="img/platforme-1.jpg" alt="Grote zicht platform waterdicht">
+        <img src="img/platforme-2.jpg" alt="Detailzicht tegen muur">
+      </div>
+    </section>
+
+    <section id="avis">
+      <h3>Beoordelingen</h3>
+      <p>🛠️ We zijn net begonnen – eerste beoordelingen volgen binnenkort.</p>
+      <blockquote>
+        ⭐⭐⭐⭐⭐ — Rose Marie Jaspar (Google review in Gosselies, zonder commentaar)
+      </blockquote>
+      <p><a href="https://www.google.com/search?q=Valentin+Heyninck+Construction+et+r%C3%A9novation" target="_blank">
+        💬 Schrijf een review op Google
+      </a></p>
+    </section>
+
+    <section id="zone">
+      <h3>Werkgebied</h3>
+      <p>Wij zijn gevestigd in Gosselies en werken overal in België:</p>
+      <ul>
+        <li>📍 Wallonië: Charleroi, Namen, Bergen, Luik en omgeving</li>
+        <li>📍 Brussel</li>
+        <li>📍 Vlaanderen (we passen ons aan taal en regels aan)</li>
+      </ul>
+      <p>💡 Reiskosten kunnen worden aangerekend afhankelijk van de afstand.</p>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <form action="mailto:contact@premiereconstruction.be" method="POST" enctype="text/plain">
+        <label>Naam :</label><br>
+        <input type="text" name="naam" required><br><br>
+
+        <label>Email :</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Bericht :</label><br>
+        <textarea name="bericht" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Verstuur">
+      </form>
+
+      <p>Of neem rechtstreeks contact op via WhatsApp:</p>
+      <a href="https://wa.me/32470XXXXXX" class="whatsapp-button" target="_blank">💬 Open WhatsApp</a>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Valentin Heyninck Bouw en renovatie – BTW BE1024424819</p>
+    </footer>
+  </div>
+
+  <!-- Script de changement de langue -->
+  <script>
+    const fr = document.getElementById('lang-fr');
+    const nl = document.getElementById('lang-nl');
+    const btnFR = document.getElementById('switch-lang');
+    const btnNL = document.getElementById('switch-lang-nl');
+
+    btnFR.addEventListener('click', () => {
+      fr.style.display = 'none';
+      nl.style.display = 'block';
+    });
+
+    btnNL.addEventListener('click', () => {
+      nl.style.display = 'none';
+      fr.style.display = 'block';
+    });
+  </script>
+</body>
